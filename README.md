@@ -1,6 +1,87 @@
-
 # CLTW: Chinese Long Text in the Wild
 
 Official repository of the **CLTW** dataset, a benchmark for **Chinese long-text recognition in complex real-world street scenes**.
+
+## Quick Links
+
+- **Dataset download**: [GitHub Releases](https://github.com/wangah1007/CLTW/releases)
+- **Supplementary material**: [supplementary.pdf](./supplementary.pdf)
+
+## Overview
+
+CLTW is a Chinese scene text dataset and benchmark designed for **long-text recognition in complex real-world environments**.
+
+Compared with existing Chinese scene text benchmarks dominated by short words or short text lines, CLTW focuses on **text-heavy street-scene images** with substantially longer textual content and more severe real-world degradations.
+
+The dataset supports the evaluation of both:
+
+- **conventional OCR models**
+- **multimodal large language models (MLLMs)**
+
+under a unified long-text recognition benchmark.
+
+## Dataset Statistics
+
+- **Total images**: 14,183
+- **Total text lines**: 140,985
+- **Total characters**: 2,844,932
+- **Train / Val / Test split**: 9,922 / 1,429 / 2,832
+
+### Text-load Statistics
+
+- **Chars / image**: median 145, mean 200.6, max 3600
+- **Chars / line**: median 19, mean 20.2, max 154
+- **Avg. lines / image**: 9.94
+- **Chinese character ratio**: 82.6%
+
+## Categories
+
+CLTW covers eight representative scenario / degradation categories:
+
+- **REF**: Reflective text
+- **UND**: Underexposed text
+- **PER**: Perspective-distorted text
+- **SSB**: Small-scale and blurry text
+- **OCC**: Occluded text
+- **SCR**: Screen-based text
+- **CBG**: Complex-background text
+- **SPM**: Special-material text
+
+Among them, five categories are organized with a **degraded-normal paired design**:
+
+- REF
+- UND
+- PER
+- SSB
+- OCC
+
+The remaining three are carrier-related categories:
+
+- SCR
+- CBG
+- SPM
+
+## Annotation and Split
+
+Each text instance is annotated at the **text-line level** with:
+
+- a **four-point quadrilateral bounding box**
+- the corresponding **text transcription**
+
+For paired degraded-normal samples, both images in the pair are assigned to the **same subset** to avoid cross-subset leakage.
+
+## Download
+
+The CLTW dataset is released through **GitHub Releases**:
+
+- [CLTW Releases](https://github.com/wangah1007/CLTW/releases)
+
+If the dataset is distributed in multiple archive parts, please download **all parts** and extract them into the same directory.
+
+## Supplementary Material
+
+The supplementary document for the CLTW paper is available here:
+
+- [supplementary.pdf](./supplementary.pdf)
 
 }
