@@ -38,14 +38,14 @@ under a unified long-text recognition benchmark.
 
 CLTW covers eight representative scenario / degradation categories:
 
-- **REF**: Reflective text
-- **UND**: Underexposed text
-- **PER**: Perspective-distorted text
-- **SSB**: Small-scale and blurry text
-- **OCC**: Occluded text
-- **SCR**: Screen-based text
-- **CBG**: Complex-background text
-- **SPM**: Special-material text
+- **REF**: Reflective Scene Text
+- **UND**: Underexposed Scene Text
+- **PER**: Perspective-distorted Scene Text
+- **SSB**: Small-scale & Blurry Scene Text
+- **OCC**: Occluded Scene Text
+- **SCR**: Screen-based Scene Text
+- **CBG**: Complex-background Scene Text
+- **SPM**: Special-material Scene Text
 
 Among them, five categories are organized with a **degraded-normal paired design**:
 
