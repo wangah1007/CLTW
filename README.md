@@ -2,6 +2,11 @@
 
 Official repository of the **CLTW** dataset, a benchmark for **Chinese long-text recognition in complex real-world street scenes**.
 
+
+> **Update Notice**
+> The updated version of the CLTW dataset and the results of the supplementary degradation severity analysis are currently being uploaded.
+> At this moment, the files available in **GitHub Releases** correspond to a previous version of the dataset, whose directory structure has not yet been updated.
+
 ## Quick Links
 
 - **Dataset download**: [GitHub Releases](https://github.com/wangah1007/CLTW/releases)
