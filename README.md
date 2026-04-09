@@ -9,7 +9,7 @@ Official repository of the **CLTW** dataset, a benchmark for **Chinese long-text
 
 ## Quick Links
 
-- **Dataset download**: [GitHub Releases](https://github.com/wangah1007/CLTW/releases)
+- **Dataset download**: [GitHub Releases CLTW Dataset v1.0](https://github.com/wangah1007/CLTW/releases/tag/v1.0)
 - **Supplementary material**: [supplementary.pdf](./supplementary.pdf)
 
 ## Overview
