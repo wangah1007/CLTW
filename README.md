@@ -90,9 +90,8 @@ We also provide source code for a supplementary severity-aware analysis pipeline
 
 This code is intended for fine-grained post-hoc analysis and can be used to compute continuous image-level severity descriptors within each degradation dimension for sample ranking, stratified evaluation, and robustness analysis.
 
-- Source code: [`degradation_metrics/`](./degradation_metrics/)
-- Usage details: [`degradation_metrics/README.md`](./degradation_metrics/README.md)
+- Source code: [`project/`](./project/)
+- Usage details: [`project/README.md`](./project/README.md)
 
 Please note that these scores are provided as supplementary severity descriptors for within-dimension analysis and do not replace the original discrete category annotations of CLTW.
-
 }
